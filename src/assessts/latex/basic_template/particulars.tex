@@ -1,0 +1,167 @@
+\input{utilities}
+\usepackage{blindtext}  
+\usepackage{lipsum}
+
+\def\lrand{\lipsum[-]}
+\def\firstname{Loren}
+\def\lastname{Ipsum}
+\def\email{loren.ipsum@gmail.com}
+\def\linkedin{linkedin.com/in/lorenipsum}
+\def\github{github.com/lorenipsum}
+\def\jasphone{+1 (911) 113-9126}
+
+% \def\jbegin{\begin{itemize}}
+% \def\jitem{\item }
+% \def\jend{\end{itemize}}
+\def\jbegin{\resumeItemListStart}
+\def\jitem{\resumeItem}
+\def\jend{\resumeItemListEnd}
+
+\def\profileSummary{
+\section{Career summary so far}
+\blindtext
+}
+
+
+\def\achievements{
+    \jbegin
+        \jitem{\lrand[1]}
+        \jitem {\lrand[2]}
+        \jitem {\lrand[1]}
+        \jitem {\lrand[2]}
+    \jend
+}
+
+% # Add education item here
+\EducationTemplate{College}
+{Jul 2001}{Jul 2001}{ABC college }
+{Loren ipsum degree}
+{Loren ipsum}
+
+\ExpTemplate{RBCCM}
+{Nov 1005}
+{Present}
+{\lrand[1]}
+{\lrand[1]}
+{\lrand[1]}
+{
+\jbegin
+    \jitem{\lrand[2]}
+    \jitem{\lrand[1]}
+    \jitem{\lrand[3]}
+    \jitem{\lrand[5]}
+\jend
+}
+
+
+\ExpTemplate{DivPF}
+{Nov 1005}
+{Present}
+{\lrand[1]}
+{\lrand[1]}
+{\lrand[1]}
+{
+\jbegin
+    \jitem{\lrand[2]}
+    \jitem{\lrand[1]}
+    \jitem{\lrand[7]}
+\jend
+}
+
+
+\ExpTemplate{GS}
+{Nov 1005}
+{Present}
+{\lrand[1]}
+{\lrand[1]}
+{\lrand[1]}
+{
+\jbegin
+    \jitem{\lrand[2]}
+    \jitem{\lrand[1]}
+    \jitem{\lrand[7]}
+\jend
+}
+
+\ExpTemplate{Rivigo}
+{Nov 1005}
+{Present}
+{\lrand[1]}
+{\lrand[1]}
+{\lrand[1]}
+{
+\jbegin
+    \jitem{\lrand[2]}
+    \jitem{\lrand[1]}
+    \jitem{\lrand[7]}
+\jend
+}
+
+\ExpTemplate{Amex}
+{Nov 1005}
+{Present}
+{\lrand[1]}
+{\lrand[1]}
+{\lrand[1]}
+{
+\jbegin
+    \jitem{\lrand[2]}
+    \jitem{\lrand[1]}
+    \jitem{\lrand[7]}
+\jend
+}
+
+
+\HckTemplate{HackCIMDGS}
+{2019}
+{\lrand[1]}
+{\lrand[3]}
+{\jbegin
+    \jitem{\lrand[27]}
+    \jitem{ \lrand[28]}
+\jend}
+
+
+\HckTemplate{HackWInfy}
+{2019}
+{\lrand[1]}
+{\lrand[3]}
+{\jbegin
+    \jitem{\lrand[27]}
+    \jitem{ \lrand[28]}
+    \jitem{ \lrand[30]}
+\jend}
+
+\HckTemplate{i3wm}
+{}
+{\lrand[1]}
+{\lrand[2]}
+{\jbegin
+    \item{\lrand[20]{}}
+    \item {\lrand[30]}
+    \item {\lrand[2]}
+\jend}
+
+\HckTemplate{TrdSigGen}
+{}
+{\lrand[1]}
+{\lrand[2]}
+{\jbegin
+    \item{\lrand[20]{}}
+    \item {\lrand[30]}
+    \item {\lrand[2]}
+\jend}
+% \DefineArrayVar{Education}{@}
+% {,}{School, Course, Stream, Start, End}
+% {,}{C,D}
+
+
+% % # Add experience item here
+
+
+
+
+% \renewcommand{addEducation}{}
+
+
+% # Add projects here
