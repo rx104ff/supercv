@@ -1,0 +1,70 @@
+Ningyuan Gao 
+Software Engineer
+penelopoff@gmail.com 647-231-0094 Toronto Ontario
+
+Profile Summary
+Results-driven Software Engineer with a strong focus on building scalable, high-performance applications across web, mobile, and backend platforms. Skilled in full-stack development using Java, C#, Rust, and React.js, with hands-on experience designing RESTful APIs, implementing secure authentication, and optimizing data pipelines. 
+Adept at developing production-grade systems with clean, maintainable code and integrating cloud-native technologies such as Kubernetes and Azure. Experienced in native and cross-platform mobile development (Swift, Objective-C, Xamarin) and comfortable working across distributed teams. Proven ability to bridge technical depth with real-world application, delivering robust solutions in fast-paced, collaborative environments.
+Education
+Kyoto University
+Master of Informatics   
+Kyoto, Japan,  2025  
+University of Waterloo
+B.Sc. in Nanotechnology Engineering    
+Waterloo, Canada,  2021  
+Technical skills
+Languages: Java, C#, Rust, C, Python, C++, JavaScript (with React), HTML, CSS
+Mobile: SwiftUI, UIKit, Objective-C, Swift
+Dev Tools: Git, Postman, OpenGL, CUDA, Xamarin
+Speaking Languages: English: Fluent (TOEIC 980/990) Chinese: Native level  Japanese: Fluent (N1 158/180)
+
+
+Professional Experience
+eCapital Corporation  Software Engineer
+Toronto, Canada  Jan. 2023 - Jan. 2024 
+
+Spearheaded the backend development for a comprehensive web portal, focusing on a robust remittance and invoice system designed to streamline financial operations.
+Led the development and implementation of an advanced email intake and inference system, optimizing the automation of bill processing and audit workflows.
+Engineered a sophisticated pipelining mechanism for the image processing and pre-processing module, significantly enhancing data flow, system efficiency, and inference engine accuracy.
+Contributed expertise in Kubernetes (k8s) infrastructure, playing a pivotal role in the deployment and scaling of services, ensuring high availability and resilience of the system.
+Collaborated in the integration of machine learning algorithms to automate text recognition from financial documents, facilitating accurate and swift processing of remittance and invoice data.
+Delivered technical presentations to the team on new designs, features, and development plans.
+Cyphercor Incorporate  Software Development Engineer
+Ottawa, Canada  Oct. 2021 - Dec. 2022 
+
+Contributed to the software development lifecycle by designing and implementing backend features for a Cyber Security software, delivering clean and scalable code with Java/Javax.
+Worked and collaborated within a pluridisciplinary team including Backend Engineers and iOS Development. Gather technical requirements by extracting architectural significance and solution designs.
+Refactored the log service with annotation-based code injection to automate the logging process and improve the atomicity and maintainability of the code base.
+Participated in UI design by writing dynamic frontend components with React.js for an improved user experience.
+Contributed to mobile application technical design by offering Swift and Objective-C expertise to the Mobile team.
+
+
+Taito Biotechnology Incorporate    Software Engineer
+Kunming, China  Jan. 2018 - Apr. 2019 Apr. 2019
+
+Engineered a modular Python framework for experimental data visualization and automated lab report generation, enabling reproducible workflows across chemical synthesis trials. Implemented a supervised learning pipeline using Random Forest regression to model the nonlinear mapping from multivariate lab parameters to Notoginseng Triterpene yield. 
+Performed feature importance analysis to extract dominant predictive variables, followed by Principal Component Analysis (PCA) for multicollinearity reduction and latent structure discovery. 
+Leveraged grid search and cross-validation to tune model hyperparameters under limited sample size constraints. Insights from the model informed iterative adjustments to the experimental protocol, improving both yield stability and production efficiency.
+Established an integrated simulation environment by combining MATLAB and COMSOL, facilitating advanced experiment simulations and enhancing research accuracy and efficiency through sophisticated computational modeling.
+Prometheus Group (Co-op)  Software Developer
+Hamilton, Canada  Jan. 2020 - Apr. 2020 Apr. 2019
+
+Participated in the technical effort by building a music training mobile application using the Xamarin framework.
+Developed an inter-communication layer to inject C++ libraries into iOS native modules.
+Wrote and maintained clean code, components, and documentation to ensure optimal legibility and productivity. Contributed to cloud server setup and maintenance.                                   
+Collaborated during the development of a mobile application for industrial machine failure reporting, leveraging the Xamarin framework.
+Perform bug-fixing and testing troubleshooting. Proactively sought performance improvement opportunities with a well-defined profiling approach to isolate and clear bottlenecks, improving quality, speed, and stability.
+Sunelectric Incorporated (Co-op)  Software Developer
+Singapore Sep. 2017 - Dec. 2017 Apr. 2019
+
+Developed a RESTful API enabling remote control of electricity panels by designing and implementing a scalable API using Angular.
+Designed and implemented the backend infrastructure using Java and Spring to streamline payment processing.
+Optimized backend processes to improve efficiency and reliability in handling electricity panel data and facilitated smooth communication between front-end and back-end systems, enhancing user experience.
+Finstra (Co-op)  Software Engineer
+Mississauga, Canada  Jan. 2017 - Apr. 2017 Apr. 2019
+
+Built a web UI toolkit using Angular2 for the company’s internal web applications. Refactored the Web Experience Tookit developed under the government web standards with Material design.
+Used Microsoft Azure platform and Tensorflow to explore the possibility of developing a machine learning tool to partially automate the loan landing process based on limited information.
+
+Master’s Thesis         An Application of Discrete Ricci Flow in Model Reduction of Dynamical Networks
+Proposed a curvature-driven model reduction method for large bidirectional networks using discrete Ricci flow guided by Ollivier–Ricci curvature. Introduced an aggregator-distance metric based on system matrix structure to enhance clustering. Achieved low H∞ error in reduced models and provided theoretical error bounds tied to system dynamics.
