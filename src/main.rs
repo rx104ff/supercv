@@ -2,7 +2,7 @@ mod models;
 mod services;
 use services::prompt::generate_one_shot_prompt;
 
-use services::{message::build_resume_update_prompt, openai::send_chat_request};
+use services::openai::send_chat_request;
 
 fn main() -> anyhow::Result<()> {
     dotenv::dotenv().ok();
