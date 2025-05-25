@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "SuperCV Resume",
+    "version": "1.0",
+    "description": "Tailor your LaTeX resume to job descriptions using AI.",
+    "permissions": ["scripting", "activeTab", "storage", "downloads"],
+    "host_permissions": ["http://localhost:3000/*"],
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": {
+        "16": "assets/icon16.png",
+        "48": "assets/icon48.png",
+        "128": "assets/icon128.png"
+      }
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://*.linkedin.com/*", "*://*.indeed.com/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
