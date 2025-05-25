@@ -14,12 +14,12 @@
       }
     },
     "background": {
-      "service_worker": "background.js"
+        "service_worker": "assets/background.js"
     },
     "content_scripts": [
-      {
-        "matches": ["*://*.linkedin.com/*", "*://*.indeed.com/*"],
-        "js": ["content.js"]
-      }
+        {
+            "matches": ["*://*.linkedin.com/*", "*://*.indeed.com/*"],
+            "js": ["assets/content.js"]
+        }
     ]
   }
