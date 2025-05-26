@@ -1,4 +1,4 @@
-use crate::models::message_payload::{Message, Role};
+use crate::domain::message_payload::{Message, Role};
 
 pub fn generate_one_shot_prompt(
     full_resume_latex: &str,

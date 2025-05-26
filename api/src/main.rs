@@ -1,22 +1,26 @@
+use axum::serve;
+use tokio::net::TcpListener;
+use crate::interface::routes::create_router;
+
 mod domain;
-mod services;
-use services::prompt::generate_one_shot_prompt;
+mod application;
+mod infrastructure;
+mod interface;
 
-use infrastructure::openai::send_chat_request;
-
-fn main() -> anyhow::Result<()> {
+#[tokio::main]
+async fn main() {
     dotenv::dotenv().ok();
 
-    let resume = std::fs::read_to_string("resume.txt")?;
-    let job_description = std::fs::read_to_string("job.txt")?;
-    let note = Some("Focus on emphasizing open source and Rust experience.");
+    let app = create_router();
 
-    let messages = generate_one_shot_prompt(&resume, &job_description, note);
-    println!("{:?}", messages);
-    //let response = send_chat_request(messages)?;
+    // Bind to TCP port first
+    let listener = TcpListener::bind("127.0.0.1:3000")
+        .await
+        .expect("Failed to bind port");
 
-    //std::fs::write("resume_updated.tex", response)?;
-    println!("Updated resume written to resume_updated.tex");
+    println!("🚀 Server running at http://127.0.0.1:3000");
 
-    Ok(())
+    serve(listener, app)
+        .await
+        .expect("Server failed");
 }
