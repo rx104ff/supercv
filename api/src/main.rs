@@ -1,8 +1,8 @@
-mod models;
+mod domain;
 mod services;
 use services::prompt::generate_one_shot_prompt;
 
-use services::openai::send_chat_request;
+use infrastructure::openai::send_chat_request;
 
 fn main() -> anyhow::Result<()> {
     dotenv::dotenv().ok();
