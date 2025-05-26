@@ -1,6 +1,7 @@
 // File: src/interface/handler.rs
 use axum::{Json, http::StatusCode};
 use serde::Deserialize;
+use serde_json::json;
 use crate::application::prompt_service::generate_one_shot_prompt;
 use crate::infrastructure::openai::send_chat_request;
 
@@ -24,4 +25,8 @@ pub async fn match_resume_handler(
         Ok(output) => Ok(output),
         Err(e) => Err((StatusCode::INTERNAL_SERVER_ERROR, e.to_string()))
     }
+}
+
+pub async fn health_check() -> Json<serde_json::Value> {
+    Json(json!({ "status": "ok" }))
 }
