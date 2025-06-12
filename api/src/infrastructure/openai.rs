@@ -1,4 +1,4 @@
-// src/infrastructure/openai.rs
+// File: src/infrastructure/openai.rs
 use crate::application::gpt_api::GptApi;
 use crate::domain::message_payload::{ChatRequest, ChatResponse, Message};
 use reqwest::Client;

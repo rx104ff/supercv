@@ -1,4 +1,4 @@
-// src/application/gpt_api.rs
+// File: src/application/gpt_api.rs
 use crate::domain::message_payload::Message;
 
 #[async_trait::async_trait]

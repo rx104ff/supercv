@@ -1,3 +1,4 @@
+// File: src/application/prompt_service.rs
 use crate::domain::message_payload::{Message, Role};
 
 pub fn generate_one_shot_prompt(
