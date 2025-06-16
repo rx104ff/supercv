@@ -1,5 +1,5 @@
 // File: src/application/gpt_api.rs
-use crate::domain::message_payload::Message;
+use crate::domain::models::message_payload::Message;
 
 #[async_trait::async_trait]
 pub trait GptApi: Send + Sync {

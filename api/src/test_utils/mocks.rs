@@ -2,7 +2,7 @@
 use std::sync::Arc;
 use tokio::sync::Mutex;
 use crate::application::gpt_api::GptApi;
-use crate::domain::message_payload::Message;
+use crate::domain::models::message_payload::Message;
 use async_trait::async_trait;
 
 pub struct MockGptApi {

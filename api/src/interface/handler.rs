@@ -2,9 +2,9 @@
 use axum::{Json, http::StatusCode, extract::State};
 use serde::Deserialize;
 use serde_json::json;
-use crate::application::prompt_service::generate_one_shot_prompt;
 use std::sync::Arc;
 use crate::application::gpt_api::GptApi;
+use crate::application::prompt_service::generate_one_shot_prompt;
 
 #[derive(Deserialize)]
 pub struct MatchRequest {

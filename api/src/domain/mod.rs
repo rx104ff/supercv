@@ -1,2 +1,3 @@
-pub mod message_payload;
-pub mod job_description;
+
+pub mod models;
+pub mod traits;

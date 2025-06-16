@@ -3,6 +3,7 @@ use axum::serve;
 use tokio::net::TcpListener;
 use crate::interface::routes::create_router;
 use std::sync::Arc;
+use serde::{Serialize, Deserialize};
 
 mod domain;
 mod application;
