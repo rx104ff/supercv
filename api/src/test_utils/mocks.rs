@@ -10,6 +10,7 @@ pub struct MockGptApi {
 }
 
 impl MockGptApi {
+    #[allow(dead_code)]
     pub fn new_with_response(response: String) -> Self {
         Self {
             response: Arc::new(Mutex::new(response)),

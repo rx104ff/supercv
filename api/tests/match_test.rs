@@ -1,9 +1,7 @@
 // File: tests/match_test.rs
-use axum::{Router, routing::post};
 use reqwest::StatusCode;
 use std::sync::Arc;
 use tokio::task;
-use supercv::application::gpt_api::GptApi;
 use supercv::interface::{routes::create_router};
 use supercv::test_utils::mocks::MockGptApi;
 use serde_json::json;
